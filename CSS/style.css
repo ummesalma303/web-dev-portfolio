@@ -175,3 +175,35 @@ nav ul li a{
 .btn{
     text-align: center;
 }
+/* footer */
+footer{
+    display: flex;
+    max-width: 1030px;
+    margin: 50px auto;
+}
+.footer-items{
+    max-width: 60%;
+}
+.footer-items h2{
+    font-size: 25px;
+}
+.footer-items p{
+    margin: 15px 0;
+    font-size: 14px;
+    color: #474747;
+}
+.contact h2{
+    font-size: 25px;
+}
+form input{
+    display: block;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+textarea{
+    border: none;
+}
