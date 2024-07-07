@@ -1,11 +1,76 @@
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 800
-
-.open-sans-<uniquifier> {
+.open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-} */
+}
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+/* sheared style */
+.btn-praimary{
+    background-color: #FD6E0A;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+/* sheared style end */
+header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+nav h2{
+    font-size: 26px;
+    font-weight: bolder;
+}
+span{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-weight: bold;
+    font-size: 16px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 80px;
+}
+.banner-content{
+    width: 520px;
+}
+.banner-content h4{
+    font-size: 23px;
+    color: #474747;
+}
+.banner-content h2{
+    font-size: 40px;
+}
+.banner-content p{
+    margin: 10px 0 20px 0;
+}
+.banner-img img{
+    width: 475px;
+}
